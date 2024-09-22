@@ -1,0 +1,134 @@
+.main-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: auto 0px;
+    padding: 40px 0; 
+    gap: 100px;
+}
+
+.image-section img {
+    max-height: 300px;
+}
+
+.text-section {
+    max-width: 50%;
+}
+
+.text-section p {
+    font-size: 18px;
+    color: #333;
+    text-align: justify; 
+}
+
+.container {
+    margin-top: 100px;
+    width: 90%;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-section h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.image-section img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.text-section {
+    max-width: 800px;
+    text-align: justify;
+}
+
+.text-section p {
+    font-size: 18px;
+    color: #333;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #4CAF50;
+}
+.content p {
+    font-size: 1.4em;
+    line-height: 1.7;
+}
+
+.tradition-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.tradition-img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tradition-img-one {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tradition-text {
+    width: 50%;
+}
+
+.tradition-item.reverse {
+    flex-direction: row-reverse;
+    text-align: left;
+}
+
+
+.tradition-text h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.tradition-text p {
+    font-size: 1.2em;
+    line-height: 1.7;
+}
+
+@media screen and (max-width: 768px) {
+    .tradition-item {
+        flex-direction: column;
+    }
+
+    .tradition-img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .tradition-img-one {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .tradition-item.reverse .tradition-img {
+        margin-left: 0;
+    }
+
+    .tradition-text {
+        width: 100%;
+    }
+}
