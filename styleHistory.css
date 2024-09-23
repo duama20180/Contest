@@ -6,7 +6,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 } */
 .container {
-    margin-top: 100px; /* Відступ зверху для основного контенту */
+    margin-top: 100px; 
     width: 90%;
     max-width: 1340px;
     margin-left: auto;
@@ -38,7 +38,7 @@
 }
 
 .tradition-img {
-    width: 45%; /* Зроби фото ширшими */
+    width: 45%; 
     height: auto;
     border-radius: 10px;
 }

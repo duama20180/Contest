@@ -51,7 +51,7 @@ body, html {
 }
 
 .title-section {
-    margin-top: 50px; /* Відступ зверху, щоб логотип не закривав заголовок */
+    margin-top: 50px; 
     text-align: center;
     padding: 20px;
 }
@@ -63,10 +63,10 @@ body, html {
 
 .main-content {
     display: flex;
-    justify-content: center; /* Центрування основного контенту */
+    justify-content: center; 
     align-items: center;
     margin: auto 100px;
-    padding: 40px 0; /* Відступ зверху і знизу */
+    padding: 40px 0; 
     gap: 100px;
 }
 
@@ -94,7 +94,7 @@ body, html {
     padding: 5px;
     position: absolute;
     z-index: 100;
-    top: 30px; /* Розташування підказки відносно логотипу */
+    top: 30px; 
     left: 25%;
     transform: translateX(-50%);
     white-space: nowrap;
