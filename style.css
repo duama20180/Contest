@@ -110,3 +110,71 @@ body, html {
         left: 50%;
         }
 }
+
+@media screen and (max-width: 865px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center; 
+        padding: 10px; 
+        height: auto;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center; 
+        width: 100%;
+        padding: 0; 
+        margin: 0; 
+    }
+
+    .menu a {
+        padding: 5px 0; 
+        text-align: center; 
+        width: auto; 
+        box-sizing: border-box;
+        font-size: 16px; 
+    }
+
+    .container {
+        margin-top: 80px; 
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+}
+
+
+.arrows {
+    display: none;
+    align-items: center;
+}
+
+.arrows a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 0 15px;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    color: #45a049;
+}
+
+@media screen and (max-width: 865px) {
+    .menu {
+        display: none; 
+    }
+
+    .arrows {
+        display: flex;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .container {
+        margin-top: 80px;
+    }
+}

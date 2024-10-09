@@ -176,3 +176,20 @@ body, html {
         width: 100%;
     }
 }
+@media screen and (max-width: 865px) {
+    .menu {
+        display: none; 
+    }
+
+    .arrows {
+        display: flex;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .container {
+        margin-top: 80px;
+    }
+}
